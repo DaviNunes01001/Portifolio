@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Nunes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <button class="tema" id="tema"></button>
+        <div class="section">
+            <div class="text">
+                <h2 id="Name">Olá, eu sou Davi Nunes</h2>
+                <h1 id="Name-stack">Desenvolvedor Full stack</h1>
+                <p class="form">em fomação</p>
+                <p>Apaixonado em tecnologia e em constante evolução, <br> com projetos praticos e reais</p>
+            </div>
+            <div class="Botoes">
+                <a class="btn-banner" href="#Projetos">Ver Projetos</a>
+                <a class="btn-banner" href="#Contado">Contato</a>
+            </div>
+        </div>
+        <nav>
+            <h2 class="about">Sobre mim</h2>
+            <ul>
+                <li>Estudante de Análise e Desenvolvimento de Sistemas no último ano pelo SENAI-SP (Valinhos).</li>
+                <li>Em formação Full Stack: HTML, CSS, JavaScript, Node.js, React, SQL e APIs.</li>
+                <li>Comprometido com evolução constante e aprendizado contínuo.</li>
+            </ul>
+        </nav>
+        <div class="section-2">
+            <h2 class="tecnologia">Tecnologias</h2>
+            <div class="container-cards">
+                <div class="card-1">
+                    <p>Front-end</p>
+                    <div class="card-front">
+                        <img src="assets/svg/html-svgrepo-com.svg" alt="" height="50px">
+                        <img src="assets/svg/js-official-svgrepo-com.svg" alt="" height="50px">
+                        <img src="assets/svg/css3-svgrepo-com.svg" alt="" height="50px">
+                    </div>
+                </div>
+                <div class="card-2">
+                    <p>Back-end</p>
+                    <div class="card-back">
+                        <img src="assets/svg/node-js-svgrepo-com.svg" alt="" height="50px">
+                        <img src="assets/svg/sql-database-generic-svgrepo-com.svg" alt="" height="50px">
+                        <img src="assets/svg/NPM.svg" alt="" height="50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Projetos" id="Projetos">
+            <h2 class="project-name">Projetos</h2>
+            <div class="container-projetos">
+
+                <!-- Pokedex -->
+                <div class="cards-projetos">
+                    <div class="images-1"></div>
+                    <div class="text-proje">
+                        <h5>Pokedex-Pro</h5>
+                        <p>Uso de API do Pokémon</p>
+                    </div>
+                    <div class="botoes-pro">
+                        <a href="https://github.com/DaviNunes01001/Pok-dex_Pro" target="_blank" class="Projetos-button">
+                            Ver Projeto
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- PlanetFlavors -->
+                <div class="cards-projetos">
+                    <div class="images-2"></div>
+                    <div class="text-proje">
+                        <h5>PlanetFlavors</h5>
+                        <p>Explorador de pratos típicos de países</p>
+                    </div>
+                    <div class="botoes-pro">
+                        <a href="https://github.com/DaviNunes01001/Explorador-de-Sabores" target="_blank"
+                            class="Projetos-button">
+                            Ver Projeto
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Repositório JS -->
+                <div class="cards-projetos">
+                    <div class="images-3"></div>
+                    <div class="text-proje">
+                        <h5>Repositório de Estudos de JS</h5>
+                        <p>Repositório de consulta para estudos em JavaScript</p>
+                    </div>
+                    <div class="botoes-pro">
+                        <a href="https://github.com/DaviNunes01001/JsCodes" target="_blank" class="Projetos-button">
+                            Ver Projeto
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="Contato" id="Contado">
+            <h2 class="name-contado">Entre em contato</h2>
+            <div class="container-contato">
+                <a href="https://www.linkedin.com/in/davi-nunes-bulhoes-08399638b/"> <strong>Linkedin</strong> / Davi
+                    Nunes Bulhoes </a>
+                <a href="https://github.com/DaviNunes01001"> <strong>GitHub</strong> / DaviNunes01001</a>
+                <a href="mailto:davinuns20@gmail.com"> <strong>Email</strong> / Davinuns20@gmail.com</a>
+            </div>
+            <a href="assets/pdf/Currículo_Davi_Nunes.pdf"><button class="Curriculo">Baixar curriculo</button></a>
+            
+        </div>
+        <footer>
+            <p>© 2026 Davi Nunes. Em constante evoulução</p>
+        </footer>
+    </main>
+    <script>
+        const bntntema = document.getElementById("tema");
+        tema.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+        });
+
+    </script>
+</body>
+
+</html>
