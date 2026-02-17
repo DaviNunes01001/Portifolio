@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+
+:root{
+    --cor--fundoDark: #000000
+}
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -11,9 +15,92 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #ffffff;
 }
-.dark {
+
+
+
+body.dark {
     background-color: #000000;
+    color: #ffffff;
+}
+
+/* MAIN */
+body.dark main {
+    background-color: #1a1a1a;
+    box-shadow: none;
+    border: 1px solid #2a2a2a;
+}
+
+/* SECTION */
+body.dark .section {
+    background: linear-gradient(90deg, #1a1a1a 6%, #121212 71%);
+    border-bottom: 1px solid #2a2a2a;
+}
+
+/* NAV */
+body.dark nav {
+    background-color: #161616;
+}
+
+/* TEXTOS */
+body.dark #Name-stack {
+    color: #4d79ff;
+}
+
+/* BOTÕES BANNER */
+body.dark .btn-banner {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #ffffff;
+}
+
+body.dark .Botoes :first-child {
+    background-color: #4d79ff;
+    color: #ffffff;
+}
+
+/* CARDS FRONT / BACK */
+body.dark .card-front,
+body.dark .card-back {
+    border: 1px solid #333;
+    background-color: #1e1e1e;
+}
+
+/* PROJETOS */
+body.dark .cards-projetos {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+body.dark .text-proje p {
+    color: #ccc;
+}
+
+/* BOTÕES PROJETOS */
+body.dark .Projetos-button {
+    background-color: #4d79ff;
+}
+
+body.dark .Projetos-github-link {
+    background-color: #1e1e1e;
+    border: 1px solid #4d79ff;
+    color: #4d79ff;
+}
+
+/* CONTATO */
+body.dark .container-contato a {
+    color: #ffffff;
+}
+
+body.dark .container-contato a:hover {
+    color: #4d79ff;
+}
+
+/* FOOTER */
+body.dark footer {
+    background-color: #121212;
+    border-top: 1px solid #2a2a2a;
 }
 
 main {
@@ -30,15 +117,16 @@ main {
 }
 
 .tema {
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(255, 255, 255);
     align-self: flex-start;
-    width: 50px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 30px;
     margin-left: 20px;
     margin-top: 10px;
     cursor: pointer;
+   
 }
 
 
@@ -369,7 +457,7 @@ li {
     color: #000000;
     transition: 1ms all ease;
 }
-.container-contato a :hover {
+.container-contato a:hover {
     height: 100%;
     margin:  0 auto;
     color: #0312e7;
