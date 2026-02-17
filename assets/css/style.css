@@ -485,7 +485,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 100%;
     font-weight: 200;
     color: #FFFFFF;
     border-radius: 0px 0px 21px 21px;
@@ -614,7 +614,8 @@ footer {
     }
 
     footer {
-        height: 80px;
+        height: 100%;
+        width: 97%;
         font-size: 14px;
         text-align: center;
         padding: 10px;
