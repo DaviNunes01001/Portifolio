@@ -5,12 +5,12 @@
 }
 
 body {
-font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .dark {
     background-color: #000000;
@@ -173,20 +173,21 @@ li {
 .tecnologia {
     margin-top: 20px;
     border-bottom: solid 1px rgb(206, 206, 206);
+    margin-bottom: 20px;
 }
 
 .container-cards {
-    width: 70%;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10px;
+    
 }
 
 .card-1 {
     width: 100%;
-    height: 55%;
+    height: 100%;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -195,7 +196,7 @@ li {
 }
 .card-2 {
     width: 100%;
-    height: 55%;
+    height: 100%;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -208,8 +209,8 @@ li {
     align-items: center;
     justify-content: center;
     border: solid 1px rgba(161, 161, 161, 0.699);
-    width: 70%;
-    height: 90%;
+    width: 300px;
+    height: 70px;
     border-radius: 7px;
     gap: 10px;
 }
@@ -218,14 +219,15 @@ li {
     align-items: center;
     justify-content: center;
     border: solid 1px rgba(161, 161, 161, 0.699);
-    width: 70%;
-    height: 90%;
+    width: 300px;
+    height: 70px;
     border-radius: 7px;
     gap: 10px;
 }
 .Projetos {
+    margin-top: 20px;
     width: 100%;
-    height: 400px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,16 +350,19 @@ li {
 .name-contado {
     border-bottom: solid 1px rgba(161, 161, 161, 0.699);
     margin-bottom: 17px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .container-contato {
     width: 70%;
-    height: 90px;
+    max-height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 16px;
+    height: 100%;
+    margin:  0 auto;
+    gap: 15px;
 }
 .container-contato a {
     text-decoration: none;
@@ -365,6 +370,8 @@ li {
     transition: 1ms all ease;
 }
 .container-contato a :hover {
+    height: 100%;
+    margin:  0 auto;
     color: #0312e7;
     
 }
@@ -380,6 +387,7 @@ li {
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-top: 25px;
 }
 
 footer {
@@ -478,11 +486,14 @@ footer {
         font-size: 15px;
     }
 
+
     .container-cards {
         flex-direction: column;
-        height: auto;
+        height: 50%;
         gap: 20px;
         width: 100%;
+        height: 100%;
+        margin:  0 auto;
     }
 
     .card-front,
@@ -492,11 +503,12 @@ footer {
     }
 
     .Projetos {
+        margin-top: 30px ;
         height: auto;
     }
 
     .container-projetos {
-        padding: 20px 0;
+        padding: 20px
     }
 
     .cards-projetos {
@@ -509,6 +521,8 @@ footer {
         gap: 10px;
         width: 90%;
         text-align: center;
+        height: 100%;
+        margin: 0 auto;
     }
 
     footer {
@@ -520,7 +534,7 @@ footer {
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1025px) {
 
     main {
         width: 85%;
@@ -528,6 +542,23 @@ footer {
 
     .container-cards {
         width: 90%;
+        height: 50%;
+        flex-direction: column;
+    }
+
+    .card-front,
+    .card-back {
+        width: 70%;
+        height: 70px;
+    }
+
+     .section-2 {
+        height: 100%;
+    }
+
+    .Projetos {
+        height: 100%;
+        margin:  0 auto;
     }
 
     .cards-projetos {
@@ -536,6 +567,13 @@ footer {
 
     .container-contato {
         width: 90%;
+        height: 100%;
+        margin:  0 auto;
+    }
+
+    .Contato {
+        height: 100%;
+        margin:  0 auto;
     }
 
 }
