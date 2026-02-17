@@ -21,8 +21,8 @@ window.addEventListener("load", () => {
 
   if (savedTheme === "dark") {
     document.body.classList.add("dark");
-    bntntema.src = "../assets/svg/modo-escuro(1).png";
+    bntntema.src = "assets/svg/modo-escuro(1).png";
   } else {
-    bntntema.src = "../assets/svg/modo-claro.png";
+    bntntema.src = "assets/svg/modo-claro.png";
   }
 });
