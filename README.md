@@ -113,5 +113,3 @@ Busco oportunidades para evoluir profissionalmente e contribuir com projetos rea
 
 Projeto desenvolvido para fins educacionais e de portfólio pessoal.
 ```
-
-0.99
