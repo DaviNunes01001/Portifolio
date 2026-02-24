@@ -29,7 +29,9 @@ body.dark {
 body.dark main {
     background-color: #1a1a1a;
     box-shadow: none;
-    border: 1px solid #2a2a2a;
+    border: 1px solid #4f4f4f97;
+   -webkit-box-shadow: 0px 0px 21px 5px rgba(255,255,255,0.85); 
+box-shadow: 0px 0px 21px 5px rgba(255, 255, 255, 0.568);
 }
 
 /* SECTION */
@@ -41,6 +43,7 @@ body.dark .section {
 /* NAV */
 body.dark nav {
     background-color: #161616;
+    border: 1px solid #4f4f4f97;
 }
 
 /* TEXTOS */
@@ -51,35 +54,44 @@ body.dark #Name-stack {
 /* BOTÕES BANNER */
 body.dark .btn-banner {
     background-color: #1e1e1e;
-    border: 1px solid #333;
+    border: 1px solid #4f4f4f97;
     color: #ffffff;
+    
 }
 
 body.dark .Botoes :first-child {
     background-color: #4d79ff;
     color: #ffffff;
+    border: 1px solid #4f4f4f97;
 }
 
 /* CARDS FRONT / BACK */
 body.dark .card-front,
 body.dark .card-back {
-    border: 1px solid #333;
+    border: 1px solid #666565;
     background-color: #1e1e1e;
 }
 
 /* PROJETOS */
 body.dark .cards-projetos {
-    background-color: #1e1e1e;
-    border: 1px solid #333;
+    background-color: #424141;
+    border: 1px solid #a1a1a1;
 }
 
 body.dark .text-proje p {
     color: #ccc;
 }
 
+
+
 /* BOTÕES PROJETOS */
 body.dark .Projetos-button {
     background-color: #4d79ff;
+}
+
+body.dark .Projetos {
+    border: 1px solid #4f4f4f97;
+    margin-bottom: 20px;
 }
 
 body.dark .Projetos-github-link {
@@ -101,6 +113,10 @@ body.dark .container-contato a:hover {
 body.dark footer {
     background-color: #121212;
     border-top: 1px solid #2a2a2a;
+}
+
+body.dark .section-2 {
+    border: 1px solid #4f4f4f97;
 }
 
 main {
@@ -161,6 +177,11 @@ main {
     margin-bottom: 5px;
     animation: myAnim 4s ease 0s 1 normal forwards;
 }
+
+.svg-stacks {
+    height: 65%;
+}
+
 .form {
     font-size: 20px;
     font-weight: 300;
@@ -230,8 +251,9 @@ nav {
 }
 
 .about {
-    margin-top: 20px;
+    margin-top: 25px;
     border-bottom: solid 1px rgb(209, 207, 207);
+    margin-bottom: 25px;
 }
 
 ul {
@@ -243,6 +265,7 @@ ul {
     gap: 10px;
     margin: 10px;
     font-size: 17px;
+    margin-bottom: 25px;
 }
 
 li {
@@ -557,6 +580,10 @@ footer {
         font-size: 22px;
     }
 
+    .svg-stacks {
+        height: 50%;
+}
+
     .Botoes {
         width: 100%;
         flex-direction: column;
@@ -587,7 +614,15 @@ footer {
     .card-front,
     .card-back {
         width: 90%;
-        height: 70px;
+        height: 95px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+       .svg-stacks {
+        height: 40%;
     }
 
     .Projetos {
